@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "weraapp",
+    "slug": "weraapp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
