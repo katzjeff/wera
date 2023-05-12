@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from "react-native";
 
+
 const LoginPage = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -25,11 +26,15 @@ const LoginPage = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Login</Text>
+      <View style={styles.mainText}>
+        <Text style={styles.title}>Sign in to continue</Text>
+      </View>
+
       <TextInput
         style={styles.input}
         placeholder="Email"
         value={email}
+        label="Enter Email"
         onChangeText={handleEmailChange}
       />
       <TextInput
@@ -64,6 +69,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     backgroundColor: "#fff",
     padding: 20,
+  },
+  title: {
+    fontSize: 14,
+    fontWeight: "bold",
+    marginBottom: 20,
   },
   input: {
     width: "100%",
