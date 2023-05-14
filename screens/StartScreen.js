@@ -1,4 +1,5 @@
 import React from "react";
+import COLORS from "../constants/colors";
 import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
 
 const StartingScreen = ({ navigation }) => {
@@ -25,7 +26,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "white",
+    // backgroundColor: "white",
+    backgroundColor: COLORS.background,
   },
   logo: {
     width: 200,
