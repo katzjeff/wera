@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     // backgroundColor: "white",
-    backgroundColor: COLORS.background,
+    backgroundColor: COLORS.white,
   },
   logo: {
     width: 200,
@@ -38,25 +38,27 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: "bold",
     marginBottom: 10,
+    color: COLORS.mainText
   },
   slogan: {
     fontSize: 10,
     fontWeight: "bold",
     marginBottom: 20,
     fontStyle: "italic",
+    color: COLORS.tagText
   },
   button: {
     // flex: 1,
     height: 50,
     width: "50%",
-    backgroundColor: "#4CAF50",
+    backgroundColor: COLORS.background,
     borderRadius: 5,
     alignItems: "center",
     justifyContent: "center",
     marginHorizontal: 5,
   },
   buttonText: {
-    color: "#fff",
+    color: COLORS.white,
     fontSize: 18,
   },
 });
