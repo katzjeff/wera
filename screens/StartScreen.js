@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
     backgroundColor: COLORS.white,
   },
   logo: {
-    width: 200,
-    height: 200,
+    width: 220,
+    height: 220,
     marginBottom: 10,
   },
   title: {

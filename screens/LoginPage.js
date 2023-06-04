@@ -27,7 +27,7 @@ const LoginPage = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={styles.mainText}>
-        <Text style={styles.title}>Sign in to continue</Text>
+        <Text style={styles.title}>Sign in to continue using the app</Text>
       </View>
 
       <TextInput
